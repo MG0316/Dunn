@@ -1,0 +1,38 @@
+{
+  "name": "dunn",
+  "version": "1.0.0",
+  "description": "Static Site Generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "dunn": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juandiegoag/Dunn.git"
+  },
+  "keywords": [
+    "dunn",
+    "static-site-generator"
+  ],
+  "author": "Juan Diego A.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juandiegoag/Dunn/issues"
+  },
+  "homepage": "https://github.com/juandiegoag/Dunn#readme",
+  "dependencies": {
+    "chalk": "^2.3.1",
+    "clear": "0.0.1",
+    "clui": "^0.3.6",
+    "command-line-usage": "^4.1.0",
+    "figlet": "^1.2.0",
+    "inquirer": "^5.1.0",
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "ejs": "^2.5.7"
+  }
+}
