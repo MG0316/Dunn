@@ -1,0 +1,12 @@
+{
+    "site": {
+      "url": "http://localhost:8080",
+      "name": "The SSG",
+      "owner": "John",
+      "description": "djaklsdjak dkaljs"
+    },
+    "build": {
+      "plugins" : ["./plugins/ejs-parser.js"]
+    }
+  }
+  
