@@ -5,11 +5,14 @@
       "owner": "John",
       "description": "djaklsdjak dkaljs"
     },
-    "build": {
-      "plugins" : ["./plugins/ejs-parser.js"]
+    "content": {
+      "plugins" : ["plugins/kramed-parser.js"]
+    },
+    "template": {
+      "plugins" : ["plugins/kramed-parser.js"]
     },
     "style":{
-      "sass":true
+      "plugins":[]
     }
 
   }
