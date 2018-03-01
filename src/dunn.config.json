@@ -12,7 +12,7 @@
       "plugins" : ["ejs.js","handlebars.js"]
     },
     "style":{
-      "plugins":["cleancss.js"]
+      "plugins":["sass.js","cleancss.js"]
     },
     "entry":"index.html"
 
