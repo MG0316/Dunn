@@ -1,13 +1,14 @@
 ---
 layout: post
-title:  "How to"
-date:   February 23, 2018
+title:  "La puta madre"
+date:   January 7, 2018
+author: JuanquiLoco
 template: layout.ejs
 plugin: markdown.js
-author: Juan Diego A. 
 ---
-An h1 TIRALA NADA MAS
-------------
+An h1 header
+============
+
 Paragraphs are separated by a blank line.
 
 2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists
@@ -26,9 +27,7 @@ content starts at 4-columns in.
 > They can span multiple paragraphs,
 > if you like.
 
-Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., "it's all
-in chapters 12--14"). Three dots ... will be converted to an ellipsis.
-Unicode is supported. ☺
+si sisi nonono la reputa madre
 
 
 
@@ -152,8 +151,8 @@ Here's a "line block":
 | Line tree
 
 and images can be specified like so:
-<!-- 
-![example image](../../style/example-image.jpg "An exemplary image") -->
+
+![example image](example-image.jpg "An exemplary image")
 
 Inline math equations go in like so: $\omega = d\phi / dt$. Display
 math should get its own line and be put in in double-dollarsigns:
@@ -161,4 +160,4 @@ math should get its own line and be put in in double-dollarsigns:
 $$I = \int \rho R^{2} dV$$
 
 And note that you can backslash-escape any punctuation characters
-which you wish to be displayed literally, ex.: \`foo\`, \*bar\*, etc.
+which you wish to be displayed literally, ex.: \`foo\`, \*bar\*, etc. 

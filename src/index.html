@@ -3,14 +3,31 @@ plugin: ejs.js
 ---
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Dunn SSG</title>
-</head>
-<body>
-    <button href='jekyll.md.html'></button> 
-    <%- content %>
-</body>
-</html> 
+<%- include('/templates/partials/indexHeader.html', {title: 'DUNN'})  %>
+<link rel="stylesheet" href="style/main.css">
+    <body>
+        <div class="container">
+
+        <%- include('/templates/partials/header.html', {title: 'DUNN'})  %>
+            <div class="row content">
+                <div class="col-md-2">
+                        <h1 style="text-align:center">Pages</h1>
+                </div>
+                <div class="col-md-10">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <!-- <h1 style="text-align:right">Pages</h1> -->
+                        </div>
+                    </div>
+                    <% pages.forEach(el => { %>
+                        <%- include('/templates/partials/pageInfo.html', {page:el})  %>
+                    <%}) %> 
+                </div>
+            </div>
+            <%- include('/templates/partials/footer.html')  %>
+        </div>
+        <%- include('/templates/partials/livereload.html', {title: 'title'})  %>
+
+    </body>
+
+</html>

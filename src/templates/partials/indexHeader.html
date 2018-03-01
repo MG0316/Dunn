@@ -1,9 +1,3 @@
----
-plugin: handlebars.js
----
-<!DOCTYPE html>
-<html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,40 +13,6 @@ plugin: handlebars.js
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link rel="stylesheet" href="/style/main.css">
-    <title>{{title}}</title>
+
+    <title><%- title %></title>
 </head>
-
-<body>
-    <div class="container">
-        <div class="row nav">
-            <div class="col-md-2 bg-faded">
-                <a href="/index.html">
-                    <h2 class="brand">DUNN</h2>
-                </a>
-            </div>
-            <div class="row banner"></div>
-        </div>
-        <div class="row content">
-            <div class="col-md-3 post__info">
-                <h1 style="text-align:center">{{title}}</h1>
-                <h3 style="text-align:center">by {{author}}</h3>
-                <h5 style="text-align:center; font-style:italic">{{date}}</h5>
-            </div>
-            <div class="col-md-9">
-                {{{content}}}
-            </div>
-        </div>
-        <footer class="row footer">
-            <div class="col-md-2 bg-faded">
-                <span class="brand"></span>
-            </div>
-        </footer>
-    </div>
-    <script>
-        document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] +
-            ':35729/livereload.js?snipver=1"></' + 'script>')
-    </script>
-</body>
-
-</html>

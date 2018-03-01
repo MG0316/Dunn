@@ -1,5 +1,4 @@
-var kramed = require('kramed')
+const kramed = require('kramed');
 
-module.exports.callback = file => {
-    return kramed(file)
-}
+module.exports.callback = file => kramed(file);
+

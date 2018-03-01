@@ -1,5 +1,4 @@
-const handlebars = require("handlebars")
+const handlebars = require('handlebars');
 
-module.exports.callback = (layout, attributes) => {
-    return handlebars.compile(layout)(attributes)
-}
+module.exports.callback = (layout, attributes) =>
+  handlebars.compile(layout)(attributes);

@@ -6,14 +6,15 @@
       "description": "djaklsdjak dkaljs"
     },
     "content": {
-      "plugins" : ["plugins/kramed-parser.js"]
+      "plugins" : ["kramdown.js","markdown.js"]
     },
     "template": {
-      "plugins" : ["plugins/kramed-parser.js"]
+      "plugins" : ["ejs.js","handlebars.js"]
     },
     "style":{
-      "plugins":[]
-    }
+      "plugins":["cleancss.js"]
+    },
+    "entry":"index.html"
 
   }
   

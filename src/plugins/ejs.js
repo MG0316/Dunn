@@ -1,5 +1,4 @@
-const ejs = require('ejs')
+const ejs = require('ejs');
 
-module.exports.callback = (layout, attributes) => {
-    return ejs.render(layout, attributes)
-}
+module.exports.callback = (layout, attributes) => ejs.render(layout, attributes, { root: `${process.cwd()}/src/` });
+

@@ -1,10 +1,13 @@
 #!/usr/bin/env node
 
-const chalk       = require('chalk');
-const clear       = require('clear');
-const figlet      = require('figlet');
-const inquirer    = require('./lib/inquirer');
-const {actionPicker} = require('./lib/actions');
+const chalk = require('chalk');
+const clear = require('clear');
+const figlet = require('figlet');
+const inquirer = require('./lib/inquirer');
+const { actionPicker } = require('./lib/actions');
+
+actionPicker();
+
 // clear();
 // console.log(
 //   chalk.yellow(
@@ -15,8 +18,6 @@ const {actionPicker} = require('./lib/actions');
 //     const credentials = await inquirer.ask();
 //     console.log(credentials);
 //   }
-  
-//run();
 
-actionPicker()
+// run();
 

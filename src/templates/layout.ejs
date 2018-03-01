@@ -3,14 +3,24 @@ plugin: ejs.js
 ---
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/style/main.css">    
-    <title><%- title %></title>
-</head>
-<body>
-    <%- content %>
-</body>
+<%- include('/templates/partials/indexHeader.html', {title: title})  %>
+    <link rel="stylesheet" href="/style/main.css">
+    <body>
+        <div class="container">
+            <%- include('/templates/partials/header.html', {title: 'DUNN'})  %>
+                <div class="row content">
+                    <div class="col-md-3 post__info">
+                        <h1 style="text-align:center"><%- title %></h1>
+                        <h3 style="text-align:center">by <%- author %></h3>
+                        <h5 style="text-align:center; font-style:italic"><%- date %></h5>
+                    </div>
+                    <div class="col-md-9">
+                        <%- content %>
+                    </div>
+                </div>
+                <%- include('/templates/partials/footer.html')  %>
+        </div>
+        <%- include('/templates/partials/livereload.html')  %>
+    </body>
+
 </html>
