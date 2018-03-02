@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "How to"
-date:   February 23, 2018
+title:  "What is this?"
+date:   March 1, 2018
 template: layout.ejs
 plugin: markdown.js
 author: Juan Diego A. 
