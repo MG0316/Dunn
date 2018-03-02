@@ -12,7 +12,7 @@ And follow through with the wizard. After running the program, you'll end up wit
 
 
 
-### File structure###
+### File structure ###
 It's important to know what does each folder and file represents:
 
  1. **Styles**: Here you can add your style scripts. Currently the app supports:
