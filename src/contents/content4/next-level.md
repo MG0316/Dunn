@@ -38,7 +38,5 @@ Although it seems pretty straight forward, there are certain rules for writing y
 
  4. As usual, save your custom plugin on the /plugins directory.
 
-That's pretty much it, go crazy! Also, here is a dog:
-<!-- 
-![much importamt](../../images/dog.jpg "Very mucho important") -->
+That's pretty much it, go crazy! 
 

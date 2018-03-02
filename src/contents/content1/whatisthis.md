@@ -18,8 +18,15 @@ npx dunn-create-project
 ~~~
     
 And follow through with the wizard. After running the program, you'll end up with a file structure just like this one:
-
-
+~~~
+        lib/
+        templates/
+        lib/
+        index.html
+        dunn.config.json
+        plugins/
+        content/
+~~~
 
 ### File structure###
 It's important to know what does each folder and file represents:

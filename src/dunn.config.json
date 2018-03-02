@@ -13,9 +13,9 @@
       {
         "plugin": "ghpages.js",
         "plugin-opts": {
-          "repo": "",
-          "repoName":"",
-          "user":""
+          "repo": "https://github.com/juandiegoag/ghpagestest2.git",
+          "repoName":"ghpagestest2/",
+          "user":"juandiegoag"
         }
       }
     ]
