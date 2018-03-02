@@ -1,67 +1,68 @@
 body {
-  background-color: #E5E5E4 !important;
+  background-color: #e5e5e4 !important;
   display: flex;
-  justify-content: space-between; }
-
+  justify-content: space-between;
+}
 .row {
-  margin: 0; }
-
+  margin: 0;
+}
 .nav {
-  background-color: #9B9BA0;
-  margin: 0px;
-  width: 100%; }
-
+  background-color: #9b9ba0;
+  margin: 0;
+  width: 100%;
+}
 .footer {
   height: 3vh;
-  background-color: #9B9BA0;
-  margin: 0px;
-  width: 100%; }
-
+  background-color: #9b9ba0;
+  margin: 0;
+  width: 100%;
+}
 .container {
-  width: 90%; }
-
+  width: 90%;
+}
 .banner {
   height: 45vh;
-  background-image: url("https://i.imgur.com/iV8A0Zv.jpg");
+  background-image: url(https://i.imgur.com/iV8A0Zv.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100%; }
-
+  width: 100%;
+}
 .post {
   height: 15vh;
   border-color: rgba(144, 145, 150, 0.2);
   border-style: none none solid none;
   border-width: 0.1rem;
-  margin: 0; }
-
+  margin: 0;
+}
 .post__title {
-  text-align: center; }
-
+  text-align: center;
+}
 .post__info {
   text-align: right;
-  font-family: 'Lato',sans-serif; }
-
+  font-family: Lato, sans-serif;
+}
 .text--center {
-  font-family: 'Arvo', sans-serif;
+  font-family: Arvo, sans-serif;
   display: flex;
   align-items: center;
-  justify-content: center; }
-
+  justify-content: center;
+}
 .text--bottom-right {
   display: flex;
   align-items: end;
-  justify-content: right; }
-
+  justify-content: right;
+}
 .brand {
-  font-family: 'Ubuntu', sans-serif;
-  color: #909196; }
-
+  font-family: Ubuntu, sans-serif;
+  color: #909196;
+}
 .content {
-  background-color: white; }
-
+  background-color: #fff;
+}
 .post-name--style {
   font-size: 1.5rem;
-  color: black; }
-
+  color: #000;
+}
 .post-name--style a:hover {
-  text-decoration: none !important; }
+  text-decoration: none !important;
+}

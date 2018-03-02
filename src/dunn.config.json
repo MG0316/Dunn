@@ -6,7 +6,7 @@
     "plugins": ["ejs.js", "handlebars.js"]
   },
   "style": {
-    "plugins": ["sass.js"]
+    "plugins": ["css.js","cleancss.js"]
   },
   "deploy": {
     "plugins": [
