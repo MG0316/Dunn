@@ -1,13 +1,10 @@
 {
   "name": "dunn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Static Site Generator",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "lib/index.js",
   "bin": {
-    "dunn": "./index.js"
+    "dunn": "./lib/index.js"
   },
   "repository": {
     "type": "git",
@@ -27,15 +24,15 @@
     "autoprefixer": "^8.0.0",
     "chalk": "^2.3.1",
     "clean-css": "^4.1.9",
-    "clear": "0.0.1",
-    "clui": "^0.3.6",
     "command-line-usage": "^4.1.0",
     "connect-livereload": "^0.6.0",
+    "copy-dir": "^0.3.0",
     "ejs": "^2.5.7",
     "express": "^4.16.2",
     "figlet": "^1.2.0",
     "front-matter": "^2.3.0",
     "fs": "0.0.1-security",
+    "git-clone-repo": "^1.0.0",
     "handlebars": "^4.0.11",
     "inquirer": "^5.1.0",
     "kramed": "^0.5.6",
