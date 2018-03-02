@@ -16,7 +16,7 @@ module.exports.callback = (opts) => {
       if (err) {
         console.log(err);
       } else {
-        chalk.green(console.log('Deployed!'));
+        chalk.green(console.log(`Deployed! Page available at https://${opts.user}.github.io/${opts.repoName}`));
       }
     },
   );
